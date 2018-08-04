@@ -152,3 +152,35 @@ a:active {
     text-decoration: none;
     cursor: pointer;
 }
+
+.image-container {
+    height: 200px;
+    width: 250px;
+    margin: 25px;
+    padding: 0;
+    background-image: url("../images/250x200.png");
+    float: left;
+}
+
+.blue-ribbon {
+    background: #4aaaa5;
+    color:  black;
+    text-align: center;
+    padding: 25px;
+    width: 200px;
+    position: fixed;
+    bottom: 0px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.ribbon {
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px;
+}
