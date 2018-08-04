@@ -2,7 +2,8 @@ body {
     background-image: url("../images/solid.png");
     color: #777777;
     font-family: 'Arial', "Helvetica Neue", Helvetica, sans-serif;
-    margin: 0
+    margin: 0;
+    font-size: 16px;
 }
 
 header {
@@ -11,7 +12,9 @@ header {
     background-color: #ffffff;
     font-family: 'Georgia', Times, "Times New Roman", serif;
     margin-top: 0;
-    height: 67px;
+    height: 57px;
+    border-bottom-color: #cccccc;
+    border-bottom-style: solid;
 }
 
 .header-box {
@@ -23,26 +26,26 @@ header {
     float: left;
     background: #4aaaa5;
     color: #ffffff;
-    padding: 20px;
+    padding: 15px;
     font-size: 24px;
     text-align: center;
 }
 
 .contact {
     float: right;
-    margin: 25px 0 25px 10px;
+    margin: 20px 0 20px 10px;
     text-align: center;
 }
 
 .portfolio {
     float: right;
-    margin: 25px 10px 25px 10px;
+    margin: 20px 10px 20px 10px;
     text-align: center;
 }
 
 .about {
     float: right;
-    margin: 25px 10px 25px 10px;
+    margin: 20px 10px 20px 10px;
     text-align: center;
 }
 
@@ -53,6 +56,7 @@ header {
     margin-right: auto;
     margin-top: 25px;
     padding: 25px;
+    line-height: 30px;
 }
 
 .hr {
@@ -61,12 +65,14 @@ header {
 
 h1 {
     font-family: 'Georgia', Times, "Times New Roman", serif;
+    color: #4aaaa5;
 }
 .profile-image {
-    height: 20%;
-    width: 20%;
+    height: 25%;
+    width: 25%;
     float: left;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 footer {
@@ -87,12 +93,62 @@ footer {
     left: 0;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 .p1 {
     margin-top: 0;
+}
+
+.p-last {
+    margin-bottom: 100px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #777777;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #777777;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #777777;
+}
+
+a:active {
+    text-decoration: none;
+    color: #777777;
+}
+
+.no-marg {
+    margin: 0;
+}
+
+.name-input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.email-input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.message-input {
+    width: 100%;
+    padding: 5px;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    color: #ffffff;
+    background: #4aaaa5;
+    border: none;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
 }
